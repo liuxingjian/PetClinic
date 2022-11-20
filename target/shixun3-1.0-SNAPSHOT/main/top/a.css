@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 25px auto;
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 75;
+}
+.container span{
+    display: inline-block;
+    width:50px;
+}
+.btngroup{
+    text-align: left;
+}
+

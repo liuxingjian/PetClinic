@@ -1,0 +1,70 @@
+.btn{ width: 200px;
+    height: 30px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 15px;                            //圆角设置
+
+}
+.btn2 {
+
+    /* 给按钮添加圆角 */
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 10px;
+    font-family: Arial, serif;
+    font-size: 5px;
+    padding: 5px;
+}
+
+.table
+{
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+.table td, table th
+{
+    border: 1px solid #cad9ea;
+    color: #666;
+    height: 100px;
+    width: 400px;
+}
+.table thead th
+{
+    background-color: #CCE8EB;
+    width: 400px;
+}
+.table tr:nth-child(odd)
+{
+    background: #fff;
+}
+.table tr:nth-child(even)
+{
+    background: #F5FAFA;
+}
+
+
+.h1 {
+    color: transparent;
+    font-family: arial;
+    font-size: 5rem;
+    font-weight: 100;
+    background: repeating-linear-gradient(45deg, black, transparent 2px),
+    repeating-linear-gradient(-45deg, black, transparent 2px) lime;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 5px lightgreen;
+    filter: drop-shadow(0 5px 4px black);
+    animation: rock 2s ease-in-out infinite;
+}
+
+@keyframes shine {
+    0% {
+        background-position: -25px;
+    }
+    50% {
+        background-position: 25px;
+    }
+    100% {
+        background-position: -25px;
+    }
+}
